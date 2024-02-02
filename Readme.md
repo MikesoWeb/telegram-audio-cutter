@@ -27,6 +27,27 @@
     pip install -r requirements.txt
     ```
 
+## Структура проекта
+
+```
+project_folder/
+│
+├── bot/
+│ ├── init.py
+│ ├── telegram_bot.py
+│ ├── audio_processing.py
+│ ├── utils.py
+│ └── config.py
+│
+├── .env (файл не передается в репозиторий)
+├── .env-example (пример переменных окружения для .env)
+├── .gitignore
+├── README.md
+├── requirements.txt
+└── run.py
+```
+
+
 ## Создание бота в Telegram
 
 Для создания бота в Telegram выполните следующие шаги:
